@@ -4,8 +4,10 @@
   box-sizing: bore;
 }
 
+
+
 body {
-  background-image: linear-gradient(to right bottom, #421bcf, #0066f5, #008ef2, #00aeda, #00c8c3, #2bd0bd, #48d9b6, #63e0ad, #53dbb3, #43d6b8, #34d1bd, #25ccc1);
+  background-image: linear-gradient(to right bottom, #421bcf, #0066f5, #008ef2, #abc4ca, #00c8c3, #273937, #48d9b6, #63e0ad, #53dbb3, #43d6b8, #8d34d1, #253ecc);
   height: 100%;
   
 }
@@ -22,8 +24,9 @@ body {
   height: 60vh;
   border: none;
   border-radius: 16px;
-  background-image: linear-gradient(to right, #59616e, #717689, #8d8ba3, #aca0bc, #ceb5d4);
+  background: rgba(128, 128, 128, 0.5);
   z-index: 10;
+  box-shadow: 5px 5px 5px 0px;
 }
 
 form {
@@ -38,10 +41,20 @@ input {
   border-radius: 8px;
   margin-bottom: 2%;
   outline: none;
+  transition: all 1s;
+}
+
+input:focus {
+  background: #00c8c3;
+  color: #fff;
+}
+
+input:focus::placeholder {
+  color: #fff;
 }
 
 input::placeholder {
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: #00aeda;
 }
 
