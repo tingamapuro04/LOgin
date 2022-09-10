@@ -77,3 +77,8 @@ input::placeholder {
   background: purple;
 }
 
+.row {
+  background: #fff;
+  margin-bottom: 10px;
+}
+

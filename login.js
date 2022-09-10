@@ -1,5 +1,9 @@
 const form = document.getElementById("form")
+const table = document.getElementById('imp')
 let Array1 = []
+const data = JSON.parse(localStorage.getItem('Personal Details'))
+
+
 const eventHandler = (e) => {
   e.preventDefault()
   const first = document.getElementById("first").value.trim()
@@ -11,3 +15,19 @@ const eventHandler = (e) => {
 }
 form.addEventListener("submit", eventHandler)
 
+
+const dispalydata = () => {
+  const row = document.createElement('div')
+  row.className = 'row'
+  data.map(item => {
+    row.innerHTML += `
+    <p>first</p>
+    <p>second</p>
+    <p>lst</p>
+  `
+  // table.appendChild(row)
+})
+table.appendChild(row)
+}
+
+dispalydata()
