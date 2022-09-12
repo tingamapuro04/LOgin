@@ -25,7 +25,7 @@ const dispalydata = () => {
     <p>second</p>
     <p>lst</p>
   `
-  // table.appendChild(row)
+  table.appendChild(row)
 })
 table.appendChild(row)
 }
