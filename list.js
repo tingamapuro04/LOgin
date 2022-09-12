@@ -12,4 +12,4 @@ data.map(item => {
   `
 })
 
-table.appendChild(row)
+// table.appendChild(row)
