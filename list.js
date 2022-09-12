@@ -2,7 +2,7 @@ const table = document.getElementById('table')
 
 const data = JSON.parse(localStorage.getItem('Personal Details'))
 
-// data.map(item => {
+data.map(item => {
   const row = document.createElement('tr')
   row.className = 'row'
   row.innerHTML += `
