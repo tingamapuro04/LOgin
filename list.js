@@ -1,4 +1,4 @@
-// const table = document.getElementById('table')
+const table = document.getElementById('table')
 
 const data = JSON.parse(localStorage.getItem('Personal Details'))
 
