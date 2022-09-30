@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 80%;
+  border: 1px solid orangered;
+  margin-top: 45px;
+  margin-right: auto;
+  margin-left: auto;
+}
